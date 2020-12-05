@@ -1,0 +1,85 @@
+body{
+    background-color: #3c5a75;
+    background-size: cover;
+}
+    
+.logo {
+    height: 40x;
+    width: 40px;
+}
+
+h2{
+    color:#5b87b1;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 50px;
+    text-align: center;
+    border: rgb(3, 3, 3);
+    margin-bottom: 20px;
+    
+}
+h6{
+    color: rgb(2, 2, 2);
+}
+.card-film {
+    min-height: 450px;
+}
+.text-muted {
+    color: #f7f8f8!important;
+}
+
+.card-film .card-body{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color:  #5b87b1;
+}
+.cor{
+    background: #5b87b1;
+}
+
+.navbar-light .navbar-brand{
+color: #3c5a75;
+text-align: center;
+font-family: 'Major Mono Display', monospace;
+font-size: 0.8cm;
+font-weight: 600;
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color:   #3c5a75;
+}
+/* cor do botões */
+.btn-primary {
+    background-color: #e3e3e3;
+    border-color:  #FFF0F5;
+    color: #3c5a75;
+
+}
+
+.btn-primary:hover {
+    background-color: #e3e3e3;
+    color: #3c5a75;
+    border-color:  #FFF0F5;
+}
+
+.page-item.active .page-link { 
+    background-color: #5b87b1;
+    border-color: #FFF0F5;
+}
+
+.footer {
+    background-color:#5b87b1;
+}
+.footer a{
+    color:   #3c5a75;
+    text-decoration: none;
+    font-size: 1.25em;
+    font-family: 'Major Mono Display', monospace;
+}
+
+.footer a img{
+    height: 30px;
+    width: 30px;
+    
+}
